@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#1e40af" stroke="#1d4ed8" stroke-width="2"/>
+
+  <!-- Engine block -->
+  <rect x="8" y="12" width="16" height="10" rx="2" fill="#3b82f6"/>
+
+  <!-- Engine details -->
+  <rect x="10" y="14" width="3" height="1.5" rx="0.5" fill="#60a5fa"/>
+  <rect x="10" y="16" width="3" height="1.5" rx="0.5" fill="#60a5fa"/>
+  <rect x="10" y="18" width="3" height="1.5" rx="0.5" fill="#60a5fa"/>
+
+  <!-- Pistons -->
+  <rect x="15" y="15" width="1.5" height="2" rx="0.5" fill="#93c5fd"/>
+  <rect x="17" y="15" width="1.5" height="2" rx="0.5" fill="#93c5fd"/>
+  <rect x="19" y="15" width="1.5" height="2" rx="0.5" fill="#93c5fd"/>
+
+  <!-- Check engine light -->
+  <circle cx="22" cy="10" r="2.5" fill="#ef4444"/>
+  <path d="M20.8 10L21.5 10.7L23.2 9" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
