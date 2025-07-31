@@ -12,14 +12,6 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID!,
 }
 
-// Debug: Log the config to see what's being loaded
-console.log("Firebase Config:", {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ? "✓ Loaded" : "✗ Missing",
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ? "✓ Loaded" : "✗ Missing",
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ? "✓ Loaded" : "✗ Missing",
-  // Don't log actual values for security
-})
-
 // Initialize Firebase
 let app
 if (!getApps().length) {

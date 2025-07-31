@@ -12,7 +12,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Carguvi Admin Dashboard",
   description: "Admin dashboard for managing Carguvi platform",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
