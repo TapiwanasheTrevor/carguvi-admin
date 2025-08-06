@@ -145,7 +145,7 @@ export default function DeliveriesPage() {
                   <TableCell>{delivery.customerAddress}</TableCell>
                   <TableCell>{delivery.vendorAddress}</TableCell>
                   <TableCell>{delivery.timestamp?.toDate?.()?.toLocaleDateString() || "N/A"}</TableCell>
-                  <TableCell className="text-xs text-muted-foreground">{delivery.bikerId.substring(0, 8)}...</TableCell>
+                  <TableCell className="text-xs text-muted-foreground">{delivery.bikerId ? `${delivery.bikerId.substring(0, 8)}...` : "N/A"}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
